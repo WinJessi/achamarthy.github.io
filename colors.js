@@ -5,9 +5,6 @@ var perlin = Perlin();
 
 function refresh() {
 
-    // modified perlin noise walk through Mike Bostock's
-    // "less angry rainbow"
-
     var color = d3.scale.cubehelix()
         .domain([0, .5, 1])
         .range([
